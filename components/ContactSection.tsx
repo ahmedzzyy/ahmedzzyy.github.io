@@ -7,7 +7,7 @@ export default function ContactSection() {
   const [copied, setCopied] = useState(false);
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText("ahmed.sahigara@example.com");
+    navigator.clipboard.writeText("inbox.ahmed.s@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -16,10 +16,10 @@ export default function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "ahmed.sahigara@example.com",
+      value: "inbox.ahmed.s@gmail.com",
       action: handleCopyEmail,
       actionLabel: copied ? "Copied!" : "Copy",
-      href: "mailto:ahmed.sahigara@example.com",
+      href: "mailto:inbox.ahmed.s@gmail.com",
     },
     {
       icon: Linkedin,
@@ -45,7 +45,7 @@ export default function ContactSection() {
           <h2 className="section-heading">Let's Connect</h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             I'm always open to exciting opportunities, interesting projects, and
-            collaborations. Feel free to reach out—let's create something
+            collaborations. Feel free to reach out. Let's create something
             amazing together.
           </p>
         </div>
@@ -113,7 +113,7 @@ export default function ContactSection() {
             </div>
 
             <a
-              href="mailto:ahmed.sahigara@example.com"
+              href="mailto:inbox.ahmed.s@gmail.com"
               className="inline-block premium-button"
             >
               Send Me an Email
@@ -122,14 +122,12 @@ export default function ContactSection() {
         </div>
 
         {/* Footer */}
-        <div className="text-center text-gray-500 text-sm border-t border-gray-700/30 pt-8">
+        <div className="text-center text-gray-400 text-sm border-t border-gray-700/30 pt-8">
           <p>
             Designed & Built by Ahmed Sahigara • © {new Date().getFullYear()} •
             All Rights Reserved
           </p>
-          <p className="mt-2">
-            Crafted with care using Next.js, React, and Tailwind CSS
-          </p>
+          <p className="mt-2">Crafted with care 💖</p>
         </div>
       </div>
     </section>

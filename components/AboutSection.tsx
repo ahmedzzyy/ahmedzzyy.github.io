@@ -1,28 +1,28 @@
 export default function AboutSection() {
   const milestones = [
     {
-      year: "2022",
+      year: "Present & Beyond",
+      title: "E-Cell Technical Head & Real World Projects",
+      description:
+        "Leading technical team at Entrepreneurship Cell, overseeing development of projects that solve real-world problems with scalable solutions.",
+    },
+    {
+      year: "2025",
+      title: "Student Council Developer & Campus Activities",
+      description:
+        "Led development of internal tools for student council, enhancing event management and communication. As well as contributed to Entrepreneurship Cell initiatives.",
+    },
+    {
+      year: "2023 - 2024",
       title: "MIT Manipal Journey Begins",
       description:
         "Started pursuing Information Technology degree, discovering passion for system architecture and API design.",
     },
     {
-      year: "2023",
-      title: "First Full-Stack Project",
+      year: "2020",
+      title: "Teenage Curiosity",
       description:
-        "Built and deployed scalable API solutions using Node.js and modern databases, learning the importance of clean architecture.",
-    },
-    {
-      year: "2024",
-      title: "Mastering System Design",
-      description:
-        "Deepened expertise in designing robust, scalable systems and developed proficiency in Java ecosystem.",
-    },
-    {
-      year: "2025",
-      title: "Present & Future",
-      description:
-        "Focusing on advanced system design patterns and mentoring junior developers while continuously learning new technologies.",
+        "Discovered a fascination for how web systems work, sparking the journey into coding and technology.",
     },
   ];
 

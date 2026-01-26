@@ -42,11 +42,6 @@ const skillCategories: SkillCategoryProps[] = [
     ],
   },
   {
-    title: "Frontend Technologies",
-    icon: Code,
-    skills: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Modern CSS"],
-  },
-  {
     title: "Databases & Storage",
     icon: Database,
     skills: ["PostgreSQL", "MongoDB", "Redis", "Database Design"],
@@ -56,6 +51,12 @@ const skillCategories: SkillCategoryProps[] = [
     icon: Zap,
     skills: ["Git", "Docker", "Linux", "AWS", "CI/CD", "REST APIs"],
   },
+  {
+    title: "Frontend Technologies",
+    icon: Code,
+    skills: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Modern CSS"],
+  },
+
   {
     title: "Core Computing",
     icon: Cpu,

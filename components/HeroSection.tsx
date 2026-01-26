@@ -4,7 +4,7 @@ export default function HeroSection() {
   const socialLinks = [
     {
       icon: Mail,
-      href: "mailto:ahmed.sahigara@example.com",
+      href: "mailto:inbox.ahmed.s@gmail.com",
       label: "Email",
       color: "hover:text-yellow-500",
     },
@@ -72,7 +72,7 @@ export default function HeroSection() {
               {/* Tagline */}
               <div className="animate-fade-in animation-delay-300">
                 <p className="text-sm md:text-base text-yellow-500/90 font-light tracking-wider uppercase">
-                  Full Stack Developer & Problem Solver
+                  Backend Developer & Strategic Architect
                 </p>
               </div>
 
