@@ -38,8 +38,3 @@ next-env.d.ts
 # IDE
 .vscode
 .idea
-
-# LLM markdown docs
-*.md
-!README.md
-!PRD.md
