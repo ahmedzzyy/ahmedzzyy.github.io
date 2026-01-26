@@ -1,15 +1,6 @@
-"use client";
-
 import { ChevronDown, Github, Linkedin, Mail, Sparkles } from "lucide-react";
-import { useState, useEffect } from "react";
 
 export default function HeroSection() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
-
   const socialLinks = [
     {
       icon: Mail,
@@ -40,9 +31,7 @@ export default function HeroSection() {
         <div className="absolute top-1/2 right-0 w-72 h-72 bg-yellow-600/5 rounded-full blur-3xl animate-pulse animation-delay-4000"></div>
       </div>
 
-      <div
-        className={`w-full max-w-xl transition-all duration-1000 ${isVisible ? "opacity-100 scale-100" : "opacity-0 scale-95"}`}
-      >
+      <div className={`w-full max-w-xl transition-all duration-1000`}>
         {/* Luxury Business Card Container */}
         <div className="relative group">
           {/* Glowing border effect */}
@@ -135,7 +124,7 @@ export default function HeroSection() {
       </div>
 
       {/* Animations */}
-      <style jsx>{`
+      <style>{`
         @keyframes fade-in {
           from {
             opacity: 0;
